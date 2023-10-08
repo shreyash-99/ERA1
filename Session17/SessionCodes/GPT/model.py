@@ -16,7 +16,7 @@ class AttentionHead(nn.Module):
         self.value = nn.Linear(num_embed, head_size, bias=False)
         # tril is a lower triangular matrix. it is not a parameter
         # of the model, so we assign it to the module using register_buffer
-        self.register_buffer("tril", torch.tril(torch.ones(block_size, block_size)))
+        self.register_buffer("tril", torch.tril(torch.ones(block_size, block_size)))  ## another way of masking
 
         # let's also add dropout
         self.dropout = nn.Dropout(dropout)
@@ -82,7 +82,7 @@ class FeedForward(nn.Module):
             # and the output of the model is 512
             # so we apply the same factor of 4
             nn.Linear(num_embed, 4 * num_embed),
-            nn.ReLU(),
+            nn.ReLU(), ## only activation function in th etransformer
             # apply the linear projection layer
             nn.Linear(4 * num_embed, num_embed),
             nn.Dropout(dropout),
