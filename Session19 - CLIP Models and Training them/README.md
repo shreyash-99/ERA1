@@ -6,7 +6,7 @@ The base CLIP model has been taken from [CLIP][def]
 [def3]: app.py
 [def]: https://huggingface.co/openai/clip-vit-base-patch32
 
-Huggingface space - Gradio: [CLIP_classifierByPrompts][def2]
+Deployed on Huggingface spaces using Gradio: [CLIP_classifierByPrompts][def2]
 
 [def2]: https://huggingface.co/spaces/shreyash99/CLIP_classifierByPrompts
 
