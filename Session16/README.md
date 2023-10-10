@@ -1,6 +1,6 @@
 # ERAv1_Session16
 
-This repository contains the PyTorch implementation of the Original Transformer Paper: [Transformer](https://arxiv.org/pdf/1706.03762.pdf), just with a few strategies that would increase the training process.
+This repository contains the PyTorch implementation of the Original Transformer Paper: [Transformer](https://arxiv.org/pdf/1706.03762.pdf), just with a few strategies that would speed up the training process.
 
 Refer to [S16.ipynb](Session16_AssignmentSolution.ipynb) jupyter notebook for the training steps.
 
