@@ -1,4 +1,4 @@
-# ERAv1_Session16
+# ERA1 Session16
 
 This repository contains the PyTorch implementation of the Original Transformer Paper: [Transformer](https://arxiv.org/pdf/1706.03762.pdf), just with a few strategies that would speed up the training process.
 

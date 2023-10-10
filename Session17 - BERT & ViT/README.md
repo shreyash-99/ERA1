@@ -1,4 +1,4 @@
-# ERAv1_Session17
+# ERA1 Session17
 
 This repository contains the source code to the transformer model (that supports the variants such as BERT, GPT, ViT)
 
