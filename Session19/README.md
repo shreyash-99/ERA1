@@ -1,4 +1,4 @@
-# ERA1_Session19
+# ERA1 Session19
 
 This reposity contains the source files [app.py][def3] that could be hosted on "Gradio" space.
 The base CLIP model has been taken from [CLIP][def]
